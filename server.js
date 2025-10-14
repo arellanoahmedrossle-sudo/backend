@@ -64,7 +64,7 @@ app.get("/check-payment/:sessionId", async (req, res) => {
     const { sessionId } = req.params;
     
     const response = await axios.get(
-      https://api.paymongo.com/v1/checkout_sessions/${sessionId},
+      `https://api.paymongo.com/v1/checkout_sessions/${sessionId}`,
       {
         headers: {
           Authorization:
