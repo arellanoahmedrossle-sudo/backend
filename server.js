@@ -2,7 +2,7 @@ import express from "express";
 import axios from "axios";
 import dotenv from "dotenv";
 import cors from "cors";
-//import QRCode from "qrcode";
+import QRCode from "qrcode";
 
 
 
