@@ -1,8 +1,9 @@
-const express = require("express");
-const axios = require("axios");
+import express from "express";
+import axios from "axios";
+import dotenv from "dotenv";
+import cors from "cors";
+//import QRCode from "qrcode";
 
-const dotenv = require("dotenv");
-const cors = require("cors");
 
 
 dotenv.config();
